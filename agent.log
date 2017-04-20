@@ -1,0 +1,34 @@
+[2016-12-07 11:57:17,311][INFO]: Listening on TCP port 9888
+[2016-12-07 11:57:22,617][INFO]: Listening on TCP port 9888
+[2016-12-07 11:57:26,328][INFO]: Listening on TCP port 9888
+[2016-12-07 12:41:54,525][INFO]: Listening on TCP port 9888
+[2016-12-07 12:44:54,428][INFO]: Listening on TCP port 9888
+[2016-12-07 12:44:54,428][INFO]: Listening on TCP port 9888
+[2016-12-07 14:21:22,385][INFO]: Listening on TCP port 9888
+[2016-12-07 14:21:22,385][INFO]: Listening on TCP port 9888
+[2016-12-08 08:45:33,332][INFO]: Listening on TCP port 9888
+[2016-12-08 08:45:37,105][INFO]: Listening on TCP port 9888
+[2016-12-20 13:43:27,036][INFO]: Listening on TCP port 9888
+[2016-12-20 13:43:42,313][INFO]: Listening on TCP port 9888
+[2016-12-26 14:46:01,874][INFO]: Listening on TCP port 9888
+[2016-12-26 14:47:57,517][INFO]: Listening on TCP port 9888
+[2016-12-26 15:46:39,983][INFO]: Listening on TCP port 9888
+[2017-02-24 14:48:07,358][ERROR]: [('D:/work/client_agent/clinet.py', 68, '<module>', 'mongo()'), ('D:/work/client_agent/clinet.py', 56, 'mongo', "t1=test.read(db='test',table='my_collection')"), ('D:\\work\\client_agent\\common\\agent.py', 83, 'fun_p', 'logger.error(traceback.extract_stack())')]
+[2017-02-24 15:07:18,674][ERROR]: [('D:/work/client_agent/clinet.py', 70, '<module>', 'if __name__ == "__main__":'), ('D:/work/client_agent/clinet.py', 56, 'mongo', "t1=test.read(db='test',table='my_collection')"), ('D:\\work\\client_agent\\common\\agent.py', 83, 'fun_p', 'logger.error(traceback.extract_stack())')]
+[2017-02-28 11:42:19,187][ERROR]: Traceback (most recent call last):
+  File "D:\work\client_agent\common\agent.py", line 57, in sendhttp
+    result = urllib2.urlopen(request)
+  File "C:\Python27\lib\urllib2.py", line 154, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python27\lib\urllib2.py", line 429, in open
+    response = self._open(req, data)
+  File "C:\Python27\lib\urllib2.py", line 447, in _open
+    '_open', req)
+  File "C:\Python27\lib\urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "C:\Python27\lib\urllib2.py", line 1228, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Python27\lib\urllib2.py", line 1198, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 10061] >
+
