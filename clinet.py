@@ -10,6 +10,7 @@ import json
 
 from setting import http_server,http_path,http_send1,mongo_table
 from common.agent import Http_Rquest
+import os
 
 
 ret={'data':[{'path':'/opt/aa','type':'none','delete':False},{'path':'/root','type':'none','delete':False}],'fun':'fun_file','app':'crm'}
